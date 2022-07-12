@@ -2,7 +2,7 @@ import { Injectable,Injector } from '@angular/core';
 import { Subject } from 'rxjs';
 import { CharacterService } from './character.service';
 
-const TICK_INTERVAL_MS = 25;
+const TICK_INTERVAL_MS = 10; // gfu
 const LONG_TICK_INTERVAL_MS = 500;
 
 export interface MainLoopProperties {
